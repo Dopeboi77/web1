@@ -1,77 +1,41 @@
 <!docktype html>
 <html>
   <Head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118985168-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-118985168-1');
-</script>
-
       <title>PUNKALLTHATSTUFF</title>
         <meta charset="utf-8">
         <style>
-        /*
-        block level element
-        */
         a {
           color:black;
           text-decoration: none;
           font-family: Arial, Helvetica, sans-serif;
         }
-        h1,h2 {
-          font-size:50px;
+        h1 {
+          font-size:60px;
           text-align: center;
-          font-family: Arial, Helvetica, sans-serif;
+        }
+        Li {
+          font-size:30px;
+          text-align: center;
         }
         ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
+          list-style-type: none;
         }
-
-        li {
-            float: left;
+        .none {
+          color:gray;
         }
-
-        li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-
-        .active {
-            background-color:rgb(50, 254, 124);
-        }
-        img {
-          width: 200;
-          height: 200;
-          display: grid;
-          padding: 1px
-
+        #active {
+          color:rgb(50, 254, 124);
         }
         </style>
   </head>
 
   <body>
-    <h1><a href="index.html"  class="active">  <div align="center"><img src="https://www.defencetalk.com/wp-content/uploads/2015/04/Explosives-Sign.png" alt="Explosives"/></div></a></h1>
+    <h1><a href="index.html">PUNKALLTHATSTUFF</a></h1>
     <ul>
-      <Li><a href="profile.html">Profile</a></Li>
-      <Li><a href="reviews.html" class="active">Reviews</a></Li>
+      <Li><a href="introduce.html">Intruduce</a></Li>
       <Li><a href="archive.html">Archive</a></Li>
+      <Li><a href="reviews.html" id="active">Reviews</a></Li>
       <li><a href="contact.html">Contact</a></li>
-      <li style="float:right"><a href="about.html">About</a></li>
     </ul>
 
 <H2>Reviews</h2>
